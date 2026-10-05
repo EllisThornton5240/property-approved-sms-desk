@@ -1,0 +1,22 @@
+{
+  "name": "property-approved-sms-desk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/property_message_service.ts",
+    "demo": "tsx scripts/send_inspection_reminder.ts",
+    "test": "tsx --test test/template_policy.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
